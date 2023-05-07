@@ -590,6 +590,7 @@ li:nth-child(1) {
 .company-info {
   max-width: 98rem;
   margin: 0 auto;
+  margin-bottom: 2rem;
   font-size: 1.3rem;
   color: #888;
   display: flex;
@@ -607,4 +608,120 @@ li:nth-child(1) {
 .support:hover,
 .support:active {
   cursor: pointer;
+}
+
+.main-footer {
+  width: 98rem;
+  height: 47rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: solid 1px #ddd;
+}
+
+.footer-header {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+  margin-top: 2rem;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-list a:link,
+.footer-list a:visited {
+  color: #777;
+  text-decoration: none;
+  font-size: 1.33rem;
+  letter-spacing: 0.2px;
+}
+
+.footer-list a:hover,
+.footer-list a:active {
+  text-decoration: underline;
+}
+
+.find-apple {
+  width: 98rem;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  color: #888;
+  letter-spacing: 0.25px;
+  margin-bottom: 1rem;
+}
+
+.find-apple a:link,
+.find-apple a:visited {
+  color: rgba(23, 115, 221, 0.952);
+}
+
+.shop-footer {
+  width: 98rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border-top: solid 1px #ddd;
+  font-size: 1.3rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  display: flex;
+  color: #888;
+  letter-spacing: 0.35px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.middle-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-7.5rem);
+}
+
+.middle-list a:link,
+.middle-list a:visited {
+  text-decoration: none;
+  color: #666;
+}
+
+.middle-list a:hover,
+.middle-list a:active {
+  text-decoration: underline;
+}
+
+.middle-list a {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-right: solid 0.1px #777;
+}
+
+.middle-list:nth-child(2) {
+  border: none !important;
+}
+
+.usa:link,
+.usa:active {
+  text-decoration: none;
+  color: #555;
+}
+
+.usa:hover,
+.usa:visited {
+  text-decoration: underline;
+  color: #555;
+}
+
+.privacy {
+  transform: translateX(1rem) !important;
+}
+
+.site-map {
+  border: none !important;
 }
