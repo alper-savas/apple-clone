@@ -17,6 +17,12 @@ body {
   font-weight: 400;
   color: #555;
   overflow-x: hidden;
+  position: absolute;
+}
+
+.open .bg-filter {
+  filter: brightness(70%) blur(10px);
+  transform: scale(1.05);
 }
 
 .bg-color {
@@ -34,7 +40,7 @@ body {
   margin: 0 auto;
   position: fixed;
   backdrop-filter: blur(6px);
-  z-index: 1000;
+  z-index: 10000;
 }
 
 .list-items {
@@ -724,4 +730,81 @@ li:nth-child(1) {
 
 .site-map {
   border: none !important;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  background-color: #151515;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.overlay .open {
+  width: 60rem;
+  display: inherit;
+  display: flex;
+  justify-content: baseline;
+  margin: 8.5rem 27.5rem;
+  gap: 5rem;
+  cursor: pointer;
+}
+
+.mac-overlay {
+  display: none;
+}
+
+.mac-overlay.open {
+  height: 38rem;
+}
+
+.store-overlay {
+  display: none;
+}
+
+.store-overlay.open {
+  height: 24.6rem;
+}
+
+.ipad-overlay {
+  display: none;
+}
+
+.ipad-overlay.open {
+  height: 36rem;
+}
+
+.overlay h6 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+.main-mac-list {
+  list-style: none;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
+
+.main-mac-list .list-item {
+  font-size: 2.5rem;
+  color: #eee;
+}
+
+.main-mac-list li {
+  padding-bottom: 1.2rem;
+}
+
+.second-mac-list {
+  list-style: none;
+}
+
+.second-mac-list .list-item {
+  font-size: 1.3rem;
+  color: #eee;
+}
+
+.second-mac-list li {
+  padding-bottom: 1.2rem;
 }

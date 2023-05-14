@@ -32,9 +32,9 @@
               ><ion-icon class="apple-icon" name="logo-apple"></ion-icon
             ></a>
           </li>
-          <li><a class="list-item" href="">Store</a></li>
-          <li><a class="list-item" href="">Mac</a></li>
-          <li><a class="list-item" href="">iPad</a></li>
+          <li><a class="list-item store-list-item" href="">Store</a></li>
+          <li><a class="list-item mac-list-item" href="">Mac</a></li>
+          <li><a class="list-item ipad-list-item" href="">iPad</a></li>
           <li><a class="list-item" href="">iPhone</a></li>
           <li><a class="list-item" href="">Watch</a></li>
           <li><a class="list-item" href="">AirPods</a></li>
@@ -55,294 +55,427 @@
         </ul>
       </nav>
     </header>
-    <div class="gap"></div>
-    <div class="banner">
-      <p>
-        Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro when you trade
-        in iPhone 11 or higher. <a class="shop-iphone" href="">Shop iPhone</a>
-      </p>
-    </div>
-    <div class="image-container iPhone-pro-img">
-      <img
-        src="./images/iPhone14Pro.jpeg"
-        class="iPhone-pro"
-        alt="iPhone 14 Pro"
-      />
-      <div class="pro-product-text">
-        <h1>iPhone 14 Pro</h1>
-        <p>Pro. Beyond.</p>
-        <div class="device-opts">
-          <ul class="device-opts-list">
-            <li>
-              <a href="">Learn more</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
-            <li>
-              <a href="">Buy</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
+    <div class="overlay">
+      <div class="store-overlay">
+        <div class="shop">
+          <h6>Shop</h6>
+          <ul class="main-mac-list">
+            <li><a class="list-item" href="">Shop the Latest</a></li>
+            <li><a class="list-item" href="">Mac</a></li>
+            <li><a class="list-item" href="">iPad</a></li>
+            <li><a class="list-item" href="">iPhone</a></li>
+            <li><a class="list-item" href="">Apple Watch</a></li>
+            <li><a class="list-item" href="">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="quick-links">
+          <h6>Quick Links</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Find a Store</a></li>
+            <li><a class="list-item" href="">Order Status </a></li>
+            <li><a class="list-item" href="">Apple Trade In</a></li>
+            <li><a class="list-item" href="">Financing</a></li>
+          </ul>
+        </div>
+        <div class="shop-special-stores">
+          <h6>Shop Special Stores</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Certified Refurbished</a></li>
+            <li><a class="list-item" href="">Education</a></li>
+            <li><a class="list-item" href="">Business</a></li>
+            <li><a class="list-item" href="">Veterans and Military</a></li>
+            <li><a class="list-item" href="">Government</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mac-overlay">
+        <div class="explore-max">
+          <h6>Explore Mac</h6>
+          <ul class="main-mac-list">
+            <li><a class="list-item" href="">Explore All Mac</a></li>
+            <li><a class="list-item" href="">MacBook Air</a></li>
+            <li><a class="list-item" href="">Macbook Pro</a></li>
+            <li><a class="list-item" href="">iMac</a></li>
+            <li><a class="list-item" href="">iMac mini</a></li>
+            <li><a class="list-item" href="">iMac Studio</a></li>
+            <li><a class="list-item" href="">Mac Pro</a></li>
+            <li><a class="list-item" href="">Displays</a></li>
+          </ul>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Compare Mac</a></li>
+            <li><a class="list-item" href="">Mac Does That</a></li>
+          </ul>
+        </div>
+        <div class="shop-mac">
+          <h6>Shop Mac</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Shop Mac</a></li>
+            <li><a class="list-item" href="">Mac Accessories</a></li>
+            <li><a class="list-item" href="">Apple Trade In</a></li>
+            <li><a class="list-item" href="">Financing</a></li>
+          </ul>
+        </div>
+        <div class="more-from-mac">
+          <h6>More from Mac</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Mac Support</a></li>
+            <li><a class="list-item" href="">macOS Ventura</a></li>
+            <li><a class="list-item" href="">Final Cut Pro</a></li>
+            <li><a class="list-item" href="">Logic Pro</a></li>
+            <li><a class="list-item" href="">Continuity</a></li>
+            <li><a class="list-item" href="">iCloud</a></li>
+            <li><a class="list-item" href="">Mac for Business</a></li>
+            <li><a class="list-item" href="">Education</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ipad-overlay">
+        <div class="explore-ipad">
+          <h6>Explore iPad</h6>
+          <ul class="main-mac-list">
+            <li><a class="list-item" href="">Explore All iPad</a></li>
+            <li><a class="list-item" href="">iPad Pro</a></li>
+            <li><a class="list-item" href="">iPad Air</a></li>
+            <li><a class="list-item" href="">iPad</a></li>
+            <li><a class="list-item" href="">iPad min</a></li>
+            <li><a class="list-item" href="">Apple Pencil</a></li>
+            <li><a class="list-item" href="">Keyboards</a></li>
+          </ul>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Compare iPad</a></li>
+            <li><a class="list-item" href="">Why iPad</a></li>
+          </ul>
+        </div>
+        <div class="shop-ipad">
+          <h6>Shop iPad</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">Shop iPad</a></li>
+            <li><a class="list-item" href="">iPad Accessories</a></li>
+            <li><a class="list-item" href="">Apple Trade In</a></li>
+            <li><a class="list-item" href="">Financing</a></li>
+          </ul>
+        </div>
+        <div class="more-from-ipad">
+          <h6>More from iPad</h6>
+          <ul class="second-mac-list">
+            <li><a class="list-item" href="">iPad Support</a></li>
+            <li><a class="list-item" href="">iPadOS 16</a></li>
+            <li><a class="list-item" href="">Final Cut Pro for iPad</a></li>
+            <li><a class="list-item" href="">Logic Pro for iPad</a></li>
+            <li><a class="list-item" href="">iCloud</a></li>
+            <li><a class="list-item" href="">Education</a></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="gap"></div>
-    <div class="image-container iPhone-14-img">
-      <img src="./images/iPhone14.png" class="iPhone-14" alt="iPhone 14 Pro" />
-      <div class="product-text-14">
-        <h1>iPhone 14</h1>
-        <p>Two great sizes.</p>
-        <p>Now with a splash of yellow.</p>
-        <div class="device-opts">
-          <ul class="device-opts-list opts-14">
-            <li>
-              <a href="">Learn more</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
-            <li>
-              <a href="">Buy</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
-          </ul>
+    <main>
+      <div class="bg-filter">
+        <div class="gap"></div>
+        <div class="banner">
+          <p>
+            Get $200–$600 in credit toward iPhone 14 or iPhone 14 Pro when you
+            trade in iPhone 11 or higher.
+            <a class="shop-iphone" href="">Shop iPhone</a>
+          </p>
         </div>
-      </div>
-    </div>
-    <div class="gap"></div>
-    <div class="image-container watch-img">
-      <img src="./images/watch.png" class="watch" alt="iPhone 14 Pro" />
-      <div class="watch-product-text">
-        <h1><ion-icon class="watch-icon" name="logo-apple"></ion-icon>WATCH</h1>
-        <p class="series">SERIES 8</p>
-        <p class="leap">A healthy leap ahead.</p>
-        <div class="device-opts">
-          <ul class="device-opts-list">
-            <li>
-              <a href="">Learn more</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
-            <li>
-              <a href="">Buy</a
-              ><ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="gap"></div>
-    <div class="cta-grid">
-      <figure class="first-cta-grid">
-        <div class="first-cta-text">
-          <span class="first-cta-header">
-            <ion-icon class="first-cta-apple-icon" name="logo-apple"></ion-icon>
-            <h1>Trade In</h1>
-          </span>
-          <p>Upgrade and save. It's that easy</p>
-          <span class="cta-learn-more">
-            <a href="" class="info-link">See what your device is worth</a>
-            <ion-icon
-              class="opts-icon"
-              name="chevron-forward-outline"
-            ></ion-icon>
-          </span>
-        </div>
-      </figure>
-      <figure class="second-cta-grid">
-        <div class="second-cta-text">
-          <span class="wwdc-text">
-            <ion-icon class="cta-apple-icon" name="logo-apple"></ion-icon>
-            <h1>WWDC23</h1>
-          </span>
-          <p>Apple Worldwide Developers Conference.</p>
-          <p>Join us online June 5-9.</p>
-          <span class="cta-learn-more">
-            <a href="" class="info-link">Learn more</a>
-            <ion-icon
-              class="opts-icon"
-              name="chevron-forward-outline"
-            ></ion-icon>
-          </span>
-        </div>
-      </figure>
-      <figure class="third-cta-grid">
-        <div class="third-cta-text">
-          <h1>iPad</h1>
-          <p>Loveable. Drawable. Magical.</p>
-          <div class="ipad-info">
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Learn more</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Buy</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
+        <div class="image-container iPhone-pro-img">
+          <img
+            src="./images/iPhone14Pro.jpeg"
+            class="iPhone-pro"
+            alt="iPhone 14 Pro"
+          />
+          <div class="pro-product-text">
+            <h1>iPhone 14 Pro</h1>
+            <p>Pro. Beyond.</p>
+            <div class="device-opts">
+              <ul class="device-opts-list">
+                <li>
+                  <a href="">Learn more</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+                <li>
+                  <a href="">Buy</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </figure>
-      <figure class="fourth-cta-grid">
-        <div class="fourth-cta-text">
-          <h1>MacBook Pro</h1>
-          <p>Supercharged by M2 Pro and M2 Max.</p>
-          <div class="mac-info">
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Learn more</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Buy</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
+        <div class="gap"></div>
+        <div class="image-container iPhone-14-img">
+          <img
+            src="./images/iPhone14.png"
+            class="iPhone-14"
+            alt="iPhone 14 Pro"
+          />
+          <div class="product-text-14">
+            <h1>iPhone 14</h1>
+            <p>Two great sizes.</p>
+            <p>Now with a splash of yellow.</p>
+            <div class="device-opts">
+              <ul class="device-opts-list opts-14">
+                <li>
+                  <a href="">Learn more</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+                <li>
+                  <a href="">Buy</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </figure>
-      <figure class="fifth-cta-grid">
-        <div class="fifth-cta-text">
-          <h1>Take your pick of Mother's Day gifts.</h1>
-          <p>So many ways to thank whoever you call Mom.</p>
-          <div class="mothersday-info">
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Shop the gift guide</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
+        <div class="gap"></div>
+        <div class="image-container watch-img">
+          <img src="./images/watch.png" class="watch" alt="iPhone 14 Pro" />
+          <div class="watch-product-text">
+            <h1>
+              <ion-icon class="watch-icon" name="logo-apple"></ion-icon>WATCH
+            </h1>
+            <p class="series">SERIES 8</p>
+            <p class="leap">A healthy leap ahead.</p>
+            <div class="device-opts">
+              <ul class="device-opts-list">
+                <li>
+                  <a href="">Learn more</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+                <li>
+                  <a href="">Buy</a
+                  ><ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </figure>
-      <figure class="sixth-cta-grid">
-        <div class="sixth-cta-text">
-          <span class="card-header">
-            <ion-icon class="card-apple-icon" name="logo-apple"></ion-icon>
-            <h1>Card</h1>
-          </span>
-          <p>Get up to 3% Daily Cash back with every purchase.</p>
-          <div class="card-info">
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Learn more</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
-            <span class="cta-learn-more">
-              <a href="" class="info-link">Apply now</a>
-              <ion-icon
-                class="opts-icon"
-                name="chevron-forward-outline"
-              ></ion-icon>
-            </span>
-          </div>
+        <div class="gap"></div>
+        <div class="cta-grid">
+          <figure class="first-cta-grid">
+            <div class="first-cta-text">
+              <span class="first-cta-header">
+                <ion-icon
+                  class="first-cta-apple-icon"
+                  name="logo-apple"
+                ></ion-icon>
+                <h1>Trade In</h1>
+              </span>
+              <p>Upgrade and save. It's that easy</p>
+              <span class="cta-learn-more">
+                <a href="" class="info-link">See what your device is worth</a>
+                <ion-icon
+                  class="opts-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </span>
+            </div>
+          </figure>
+          <figure class="second-cta-grid">
+            <div class="second-cta-text">
+              <span class="wwdc-text">
+                <ion-icon class="cta-apple-icon" name="logo-apple"></ion-icon>
+                <h1>WWDC23</h1>
+              </span>
+              <p>Apple Worldwide Developers Conference.</p>
+              <p>Join us online June 5-9.</p>
+              <span class="cta-learn-more">
+                <a href="" class="info-link">Learn more</a>
+                <ion-icon
+                  class="opts-icon"
+                  name="chevron-forward-outline"
+                ></ion-icon>
+              </span>
+            </div>
+          </figure>
+          <figure class="third-cta-grid">
+            <div class="third-cta-text">
+              <h1>iPad</h1>
+              <p>Loveable. Drawable. Magical.</p>
+              <div class="ipad-info">
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Learn more</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Buy</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+              </div>
+            </div>
+          </figure>
+          <figure class="fourth-cta-grid">
+            <div class="fourth-cta-text">
+              <h1>MacBook Pro</h1>
+              <p>Supercharged by M2 Pro and M2 Max.</p>
+              <div class="mac-info">
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Learn more</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Buy</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+              </div>
+            </div>
+          </figure>
+          <figure class="fifth-cta-grid">
+            <div class="fifth-cta-text">
+              <h1>Take your pick of Mother's Day gifts.</h1>
+              <p>So many ways to thank whoever you call Mom.</p>
+              <div class="mothersday-info">
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Shop the gift guide</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+              </div>
+            </div>
+          </figure>
+          <figure class="sixth-cta-grid">
+            <div class="sixth-cta-text">
+              <span class="card-header">
+                <ion-icon class="card-apple-icon" name="logo-apple"></ion-icon>
+                <h1>Card</h1>
+              </span>
+              <p>Get up to 3% Daily Cash back with every purchase.</p>
+              <div class="card-info">
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Learn more</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+                <span class="cta-learn-more">
+                  <a href="" class="info-link">Apply now</a>
+                  <ion-icon
+                    class="opts-icon"
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </span>
+              </div>
+            </div>
+          </figure>
         </div>
-      </figure>
-    </div>
-    <div class="slider">
-      <div class="slide">
-        <img src="./images/Slider/01silo.png" alt="Silo" />
+        <div class="slider">
+          <div class="slide">
+            <img src="./images/Slider/01silo.png" alt="Silo" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/02ghosted.png" alt="Ghosted" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/03mystery.png" alt="" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/04tedlasso.png" alt="Ted Lasso" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/05baseball.png" alt="Baseball game" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/06shrinking.png" alt="Shrinking" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/07thebigdoor.png" alt="The big door" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/08schmigadon.png" alt="Schmigadon" />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/09tetris.png" alt="Tetris" />
+          </div>
+          <div class="slide">
+            <img
+              src="./images/Slider/10morningshow.png"
+              alt="The morning show"
+            />
+          </div>
+          <div class="slide">
+            <img src="./images/Slider/11frogandtoad.png" alt="Frog and Toad" />
+          </div>
+          <div class="slider-btn-left"></div>
+          <div class="slider-btn-right"></div>
+        </div>
+        <div class="company-info">
+          <p>
+            1. Trade-in values will vary based on the condition, year, and
+            configuration of your eligible trade-in device. Not all devices are
+            eligible for credit. You must be at least 18 years old to be
+            eligible to trade in for credit or for an Apple Gift Card. Trade-in
+            value may be applied toward qualifying new device purchase, or added
+            to an Apple Gift Card. Actual value awarded is based on receipt of a
+            qualifying device matching the description provided when estimate
+            was made. Sales tax may be assessed on full value of a new device
+            purchase. In-store trade-in requires presentation of a valid photo
+            ID (local law may require saving this information). Offer may not be
+            available in all stores, and may vary between in-store and online
+            trade-in. Some stores may have additional requirements. Apple or its
+            trade-in partners reserve the right to refuse or limit quantity of
+            any trade-in transaction for any reason. More details are available
+            from Apple’s trade-in partner for trade-in and recycling of eligible
+            devices. Restrictions and limitations may apply.
+          </p>
+          <p>
+            To access and use all the features of Apple Card, you must add Apple
+            Card to Wallet on an iPhone or iPad with the latest version of iOS
+            or iPadOS. Update to the latest version by going to Settings >
+            General > Software Update. Tap Download and Install.
+          </p>
+          <p>Available for qualifying applicants in the United States.</p>
+          <p>
+            Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City
+            Branch.
+          </p>
+          <p>
+            Learn more about how Apple Card applications are evaluated at
+            <a href="https://support.apple.com/en-us/HT209218" class="support"
+              >support.apple.com/kb/HT209218.</a
+            >
+          </p>
+          <p>A subscription is required for Apple TV+.</p>
+          <p>
+            Major League Baseball trademarks and copyrights are used with
+            permission of MLB Advanced Media, L.P. All rights reserved.
+          </p>
+        </div>
       </div>
-      <div class="slide">
-        <img src="./images/Slider/02ghosted.png" alt="Ghosted" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/03mystery.png" alt="" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/04tedlasso.png" alt="Ted Lasso" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/05baseball.png" alt="Baseball game" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/06shrinking.png" alt="Shrinking" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/07thebigdoor.png" alt="The big door" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/08schmigadon.png" alt="Schmigadon" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/09tetris.png" alt="Tetris" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/10morningshow.png" alt="The morning show" />
-      </div>
-      <div class="slide">
-        <img src="./images/Slider/11frogandtoad.png" alt="Frog and Toad" />
-      </div>
-      <div class="slider-btn-left"></div>
-      <div class="slider-btn-right"></div>
-    </div>
-    <div class="company-info">
-      <p>
-        1. Trade-in values will vary based on the condition, year, and
-        configuration of your eligible trade-in device. Not all devices are
-        eligible for credit. You must be at least 18 years old to be eligible to
-        trade in for credit or for an Apple Gift Card. Trade-in value may be
-        applied toward qualifying new device purchase, or added to an Apple Gift
-        Card. Actual value awarded is based on receipt of a qualifying device
-        matching the description provided when estimate was made. Sales tax may
-        be assessed on full value of a new device purchase. In-store trade-in
-        requires presentation of a valid photo ID (local law may require saving
-        this information). Offer may not be available in all stores, and may
-        vary between in-store and online trade-in. Some stores may have
-        additional requirements. Apple or its trade-in partners reserve the
-        right to refuse or limit quantity of any trade-in transaction for any
-        reason. More details are available from Apple’s trade-in partner for
-        trade-in and recycling of eligible devices. Restrictions and limitations
-        may apply.
-      </p>
-      <p>
-        To access and use all the features of Apple Card, you must add Apple
-        Card to Wallet on an iPhone or iPad with the latest version of iOS or
-        iPadOS. Update to the latest version by going to Settings > General >
-        Software Update. Tap Download and Install.
-      </p>
-      <p>Available for qualifying applicants in the United States.</p>
-      <p>
-        Apple Card is issued by Goldman Sachs Bank USA, Salt Lake City Branch.
-      </p>
-      <p>
-        Learn more about how Apple Card applications are evaluated at
-        <a href="https://support.apple.com/en-us/HT209218" class="support"
-          >support.apple.com/kb/HT209218.</a
-        >
-      </p>
-      <p>A subscription is required for Apple TV+.</p>
-      <p>
-        Major League Baseball trademarks and copyrights are used with permission
-        of MLB Advanced Media, L.P. All rights reserved.
-      </p>
-    </div>
+    </main>
     <footer>
       <div class="main-footer">
         <div class="first">
