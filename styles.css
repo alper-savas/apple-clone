@@ -22,7 +22,12 @@ body {
 
 .open .bg-filter {
   filter: brightness(70%) blur(10px);
-  transform: scale(1.05);
+  transition: all 0.4s ease-in;
+  transform: scale(1.01) translateY(1.5rem);
+}
+
+.bg-filter {
+  transition: all 0.3s ease-in;
 }
 
 .bg-color {
@@ -40,7 +45,7 @@ body {
   margin: 0 auto;
   position: fixed;
   backdrop-filter: blur(6px);
-  z-index: 10000;
+  z-index: 1000000;
 }
 
 .list-items {
@@ -732,46 +737,214 @@ li:nth-child(1) {
   border: none !important;
 }
 
-.overlay {
-  position: fixed;
+.mac-overlay {
+  height: 55rem;
   width: 100vw;
+  padding: 8.5rem 27.5rem;
   background-color: #151515;
-  z-index: 100;
-  cursor: pointer;
-}
-
-.overlay .open {
-  width: 60rem;
-  display: inherit;
+  position: fixed;
   display: flex;
   justify-content: baseline;
-  margin: 8.5rem 27.5rem;
   gap: 5rem;
+  z-index: 100;
   cursor: pointer;
-}
-
-.mac-overlay {
-  display: none;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 .mac-overlay.open {
-  height: 38rem;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .store-overlay {
-  display: none;
+  height: 41.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 .store-overlay.open {
-  height: 24.6rem;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .ipad-overlay {
-  display: none;
+  height: 51.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
 }
 
 .ipad-overlay.open {
-  height: 36rem;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.iphone-overlay {
+  height: 47.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.iphone-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.watch-overlay {
+  height: 47.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.watch-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.airpods-overlay {
+  height: 41.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.airpods-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tv-overlay {
+  height: 38.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.tv-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.ent-overlay {
+  height: 57.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.ent-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.acc-overlay {
+  height: 45.5rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.acc-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.support-overlay {
+  height: 49rem;
+  width: 100vw;
+  padding: 8.5rem 27.5rem;
+  background-color: #151515;
+  position: fixed;
+  display: flex;
+  justify-content: baseline;
+  gap: 5rem;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.35s ease-in;
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.support-overlay.open {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .overlay h6 {
@@ -781,30 +954,34 @@ li:nth-child(1) {
   margin-bottom: 2rem;
 }
 
-.main-mac-list {
+.main-list {
   list-style: none;
   margin-bottom: 2rem;
   margin-right: 3rem;
 }
 
-.main-mac-list .list-item {
+.main-list .list-item {
   font-size: 2.5rem;
   color: #eee;
 }
 
-.main-mac-list li {
+.main-list li {
   padding-bottom: 1.2rem;
 }
 
-.second-mac-list {
+.second-list {
   list-style: none;
 }
 
-.second-mac-list .list-item {
+.second-list .list-item {
   font-size: 1.3rem;
   color: #eee;
 }
 
-.second-mac-list li {
+.second-list li {
   padding-bottom: 1.2rem;
+}
+
+.add-z {
+  z-index: 10000;
 }
